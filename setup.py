@@ -9,7 +9,7 @@ setup(
     name='pydnspod',
     version=__version__,
     description='pydnspod - a dnspod api sdk',
-    long_description=open("README.md").read(),
+    long_description=open("README.md", encoding='utf-8').read(),
     author='solos',
     author_email='lxl1217@gmail.com',
     packages=["pydnspod"],
